@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "name": "Pikachu ",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png",
+      "count": 0
+    },
+    {
+      "id": 2,
+      "name": "Charizard",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+      "count": 0
+    },
+    {
+      "id": 3,
+      "name": "Bulbasaur",
+      "image": "https://cdn.bulbagarden.net/upload/thumb/2/21/001Bulbasaur.png/250px-001Bulbasaur.png",
+      "count": 0
+    },
+    {
+      "id": 4,
+      "name": "Mewtwo",
+      "image": "https://cdn.bulbagarden.net/upload/thumb/7/78/150Mewtwo.png/250px-150Mewtwo.png",
+      "count": 0
+    },
+    {
+      "id": 5,
+      "name": "DeadPool",
+      "image": "https://musicimage.xboxlive.com/catalog/video.movie.8D6KGX0JCNSJ/image?locale=en-us&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
+      "count": 0
+    },
+    {
+      "id": 6,
+      "name": "Wolverine",
+      "image": "https://s.pacn.ws/640/wh/mafex-xmen-wolverine-comic-ver-584589.1.jpg?pltxuf",
+      "count": 0
+    },
+    {
+      "id": 7,
+      "name": "Cyclops",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2q_kNkZrAXDDk6XBhE6EXpCdmjfH-O9SvwlsAU8Inqpup-kTzDA",
+      "count": 0
+    },
+    {
+      "id": 8,
+      "name": "NightCrawler",
+      "image": "https://am21.akamaized.net/tms/cnt/uploads/2014/06/McGuinness-Nightcrawler1-504x480.jpg",
+      "count": 0
+    },
+    {
+      "id": 9,
+      "name": "RedRanger",
+      "image": "https://www.popcultureshocktoys.com/content/images/thumbs/0004192_red-ranger-lifesize-bust-ex_600.jpeg",
+      "count": 0
+    },
+    {
+      "id": 10,
+      "name": "White Ranger",
+      "image": "https://www.sideshow.com/storage/product-images/9029801/white-ranger_mighty-morphin-power-rangers_gallery_5c4bfc5f78cf1.jpg",
+      "count": 0
+    },
+    {
+      "id": 11,
+      "name": "Green Ranger",
+      "image": "https://www.sideshow.com/storage/product-images/9031981/green-ranger_mighty-morphin-power-rangers_gallery_5c4bfa075ef66.jpg",
+      "count": 0
+    },
+    {
+      "id": 12,
+      "name": "Farva",
+      "image": "https://i.pinimg.com/236x/3a/34/31/3a34317f93936144e2cd5b10a9d2c31b--tv-quotes-movie-quotes.jpg",
+      "count": 0
+    }
+  ]
