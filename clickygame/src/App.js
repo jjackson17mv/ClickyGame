@@ -3,7 +3,7 @@ import Card from "./components/Card";
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
 import cards from "./cards.json";
-import "./App.css";
+import './styles/App.css';
 
 class App extends Component {
   state = {
@@ -12,12 +12,12 @@ class App extends Component {
     score: 0
   };
 
-  imageClick = event => {
-    const currentCharacter = event.target.addEventListener;
-    const characterClicked =
-      this.state.clickedCards.indexOf(currentCharacter) > -1;
+  cardClick = event => {
+    const currentCard = event.target.id
+    const cardClicked =
+      this.state.clickedCards.indexOf(currentCard) > -1;
 
-  if (characterClicked) {
+  if (cardClicked) {
     this.setState({
       cards: this.state.cards.sort(function(a,b) {
         return 0.5 - Math.random();
@@ -32,9 +32,7 @@ class App extends Component {
         cards: this.state.cards.sort(function(a,b) {
           return 0.5 - Math.random();
         }),
-        clickedCards: this.state.clickedCards.concat(
-          currentCharacter
-        ),
+        clickedCards: this.state.clickedCards.concat(currentCard),
         score: this.state.score + 1
       },
       () => {
@@ -60,12 +58,13 @@ class App extends Component {
         />
         <Wrapper />
         <div className="wrapper">
-          {this.state.cards.map(cards => (
+          {this.state.cards.map(card=> (
             <Card
-              imageClick={this.imageClick}
-              id={cards.id}
-              key={cards.id}
-              image={cards.image}
+              cardClick={this.cardClick}
+              id={card.id}
+              key={card.id}
+              name={card.name}
+              image={card.image}
             />
           ))}
         </div>
