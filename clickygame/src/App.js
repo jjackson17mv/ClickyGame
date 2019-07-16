@@ -14,6 +14,8 @@ class App extends Component {
 
   cardClick = event => {
     const currentCard = event.target.id
+    console.log(currentCard)
+
     const cardClicked =
       this.state.clickedCards.indexOf(currentCard) > -1;
 
@@ -60,9 +62,9 @@ class App extends Component {
         <div className="wrapper">
           {this.state.cards.map(card=> (
             <Card
-              cardClick={this.cardClick}
-              id={card.id}
-              key={card.id}
+              cardClicked={this.cardClicked}
+              className={card.className}
+              key={card.className}
               name={card.name}
               image={card.image}
             />
